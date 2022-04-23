@@ -54,5 +54,5 @@ Pretendo utilizar códigos padronizados à BEM, pois facilita a leitura do códi
 
 ```zsh
     # Clonando o repositório em sua máquina
-    $ git clone https://github.com/edsonjaguiar/Solution-FrontendMentor
+    $ git clone https://github.com/edsonjaguiar/Solution-FrontendMentor-using-Flexbox
 ```
