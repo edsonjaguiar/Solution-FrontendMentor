@@ -21,27 +21,23 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     background: var(--very-light-gray);
     font-weight: 400;
-
-    min-height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 4rem;
 }
 
 /* Card styles */
 
 .card {
-    max-width: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
 }
 
 .card__info {
+    max-width: 940px;
+
     display: flex;
     flex-wrap: wrap;
-
-    margin: 1rem;
 }
 
 .card .card__content {
@@ -117,8 +113,8 @@ body {
 /* Footer styles */
 
 .attribution {
-    margin-top: 6rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 /* Media queries */
@@ -126,5 +122,13 @@ body {
 @media (max-width: 480px) {
     .card .card__content .btn {
         margin-top: 30px;
+    }
+
+    .attribution {
+        margin-top: 4rem;
+    }
+
+    .card {
+        margin: 4rem 1rem;
     }
 }
