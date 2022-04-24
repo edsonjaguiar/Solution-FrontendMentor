@@ -82,10 +82,11 @@ body {
 
     cursor: pointer;
 
-    padding: 16px 31px;
+    padding: 13px 28px;
     margin-top: 80px;
 
     transition: 0.2s;
+    text-transform: capitalize;
 }
 
 .card .card__content .btn_1 {
