@@ -26,11 +26,11 @@ body {
 /* Card styles */
 
 .card {
+    min-height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
-
-    min-height: 100vh;
 }
 
 .card__info {
